@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <browser></browser>
+    <browser>safari</browser>
     <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
     <test.environment/>
     <automation.name/>
@@ -26,6 +26,7 @@
     <base.url>https://rib.bankalbilad.com/retail/ibslogon.do</base.url>
     <testset>testing.xml</testset>
     <headless>yes</headless> <!-- yes or no -->
+    <os.name/>
   </properties>
 
   <dependencies>
